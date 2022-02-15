@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#weatherResults {
+  display: flex;
+  justify-content: center;
+}
+
+#forecastGrid {
+  align-self: center;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#forecastResults {
+
+}
+
+.three_hour {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
